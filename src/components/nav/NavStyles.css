@@ -1,0 +1,30 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    z-index: 10;
+}
+
+.nav__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__black {
+    background: #000;
+}
+
+.nav__logo {
+    width: 90px;
+    cursor: pointer;
+}
+
+.nav__avatar {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
